@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "primerApp:build:production"
+              "buildTarget": "primerApp:build:production"
             },
             "development": {
-              "browserTarget": "primerApp:build:development"
+              "buildTarget": "primerApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "primerApp:build"
+            "buildTarget": "primerApp:build"
           }
         },
         "test": {
